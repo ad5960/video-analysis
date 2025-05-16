@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = ">=1.5"
+numpy = ">=1.23"
+boto3 = ">=1.26"
+jsonschema = ">=4.17"
+pika = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.6"

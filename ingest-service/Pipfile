@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = ">=3.8"
+opencv-python = ">=4.5"
+ffmpeg-python = ">=0.2"
+protobuf = ">=3.20"
+pika = "*"
+fastapi = "*"
+uvicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.6"
